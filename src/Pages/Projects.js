@@ -9,7 +9,7 @@ import irakiTechnologies from "../images/irakiwebsite.png"
 
 function Projects() {
   return (
-    <Grid container item xs={12} sx={{  pt: {xs:50,md:20} }}>
+    <Grid container item xs={12} sx={{  pt: {xs:50,md:40} }}>
       <Grid container item xs={12} sx={{ justifyContent: "center" }}>
         <Grid item xs={12}>
           <Typography
@@ -75,7 +75,6 @@ function Projects() {
                 padding: "10px 40px",
                 fontWeight: "bold",
                 fontSize: { xs: "14px", md: "17px" },
-              //  ml:{xs:"",md:""},
                 ":hover": {
                   transform: "translateY(-5px)",
                   transition: "all 400ms",
