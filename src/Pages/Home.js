@@ -1,11 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import ImportContactsIcon from "@mui/icons-material/ImportContacts";
 import { NavLink } from "react-router-dom";
 import  Banner from '../images/BackgroundImage.jpg'
 function Home() {
